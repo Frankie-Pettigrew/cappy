@@ -1,0 +1,2599 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 849302148, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Mouse
+  m_EditorClassIdentifier: 
+  AllNodes:
+  - {fileID: 114230812773801060}
+  - {fileID: 114881906095210692}
+  - {fileID: 114532024864375936}
+  - {fileID: 114491524392078530}
+  - {fileID: 114178260165518122}
+  - {fileID: 114324953586561200}
+  - {fileID: 114623958264490860}
+  - {fileID: 114495755442941344}
+  - {fileID: 114466123280881814}
+  - {fileID: 114230492598366046}
+  - {fileID: 114163281645921550}
+  - {fileID: 114858627686883092}
+  - {fileID: 114423163521059068}
+  - {fileID: 114290117384226104}
+  - {fileID: 114187566472767278}
+  - {fileID: 114227303561567912}
+  - {fileID: 114718307665002392}
+  - {fileID: 114287118926471310}
+  - {fileID: 114092446668990598}
+  - {fileID: 114322161719792724}
+  - {fileID: 114880251192265844}
+  - {fileID: 114052934117951204}
+  - {fileID: 114183774391755140}
+  - {fileID: 114265929023440200}
+  - {fileID: 114720206068031164}
+  - {fileID: 114428871474094712}
+  - {fileID: 114299225003139980}
+  - {fileID: 114357772168054050}
+  - {fileID: 114469127066647242}
+  - {fileID: 114748089384136936}
+  - {fileID: 114931181518264336}
+  SeparatorPos:
+    serializedVersion: 2
+    x: 0
+    y: 223
+    width: 1056
+    height: 17
+  PropsScrollPos: {x: 0, y: 0}
+  ZoomLevel: 3
+  ViewCenter: {x: 499086.94, y: 499984.06}
+  Namespace: 
+  ClassName: 
+  AssetFolder: 
+  BaseClass: 
+  TreeUpdateMode: 2
+  IsSubtreeOnly: 0
+  EnableDebugLogNodes: 1
+  EnableLiveUpdate: 1
+  AddClassNamePrefix: 1
+  RequiresInit: 0
+  GUID: kuezqx2vL0eHifQPMmE8JA
+  RequiredComponents: []
+  CodeKey: RFmFDHDTg0CDl+BmdI70jg
+  SchemaVersion: 1
+  ___GenerateNodeComments: 0
+  ___GenerateNodeTrace: 0
+--- !u!114 &114052934117951204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move to idle target slowly
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501252
+    y: 500328
+    width: 180
+    height: 72
+  GUID: QZXvEH0HLUG67TjP1Ux3NQ
+  Type: 600
+  Parent: NXKYi9XkLkGKmFTd+NcwwA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 21
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 0.4
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse.IdleTarget
+      CallSpec: IdleTarget
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: IdleTarget
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &114092446668990598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Show is attacking 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500016
+    y: 500460
+    width: 180
+    height: 72
+  GUID: BkXgugPDRUGpKf+F72DR3Q
+  Type: 200
+  Parent: RleDnstd1EqeAk+5crV23w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 18
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    ShortName: SignalBehaviourOnScreen
+    CallSpec: SignalBehaviourOnScreen
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    Parameters:
+      keys:
+      - behaviour
+      values:
+      - Attack! (Pow!)
+      ParameterOrder:
+      - behaviour
+      ParameterTypes:
+      - string
+      ParameterNames:
+      - behaviour
+--- !u!114 &114163281645921550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499740
+    y: 500208
+    width: 180
+    height: 72
+  GUID: 5vbW+gKH0kehpAjhRvM/+w
+  Type: 1200
+  Parent: CmReHJkGEESuaEBPrSVTrA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - cWlg/gSwOUuFeffZCm9ccQ
+  - J0YWLcYd4kWHW0fLQ/ph+w
+  InternalIndex: 10
+--- !u!114 &114178260165518122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Show is attacking 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500544
+    y: 500208
+    width: 180
+    height: 72
+  GUID: Wf5lWZL+C0SDUABzQCj1cA
+  Type: 200
+  Parent: VQUvDwlZFEynTYN7lr2NJw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 4
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    ShortName: SignalBehaviourOnScreen
+    CallSpec: SignalBehaviourOnScreen
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    Parameters:
+      keys:
+      - behaviour
+      values:
+      - Attack! (Retreat!)
+      ParameterOrder:
+      - behaviour
+      ParameterTypes:
+      - string
+      ParameterNames:
+      - behaviour
+--- !u!114 &114183774391755140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Sequence
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501072
+    y: 500328
+    width: 180
+    height: 72
+  GUID: HJnZMGoBzkiXiQf1OEVtGQ
+  Type: 1600
+  Parent: NXKYi9XkLkGKmFTd+NcwwA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - U0769V6Hu0e6abHyFoqfsw
+  - FI07cRrgK0O8Uy6anO0usA
+  InternalIndex: 22
+  IsDynamic: 0
+--- !u!114 &114187566472767278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 4
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499740
+    y: 500484
+    width: 180
+    height: 72
+  GUID: tnzP6u5l3kiXoImveOrkiQ
+  Type: 200
+  Parent: cWlg/gSwOUuFeffZCm9ccQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 14
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.EatClosestCheese
+    ShortName: EatClosestCheese
+    CallSpec: EatClosestCheese
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.EatClosestCheese
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &114227303561567912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 3
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500196
+    y: 500460
+    width: 180
+    height: 72
+  GUID: A1UXsaBq6E+DUL7upLKD6w
+  Type: 200
+  Parent: RleDnstd1EqeAk+5crV23w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 15
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.AttackCat
+    ShortName: AttackCat
+    CallSpec: AttackCat
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.AttackCat
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &114230492598366046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501096
+    y: 500052
+    width: 180
+    height: 72
+  GUID: W9q2ehOYS06wtW4H8hiYrg
+  Type: 1600
+  Parent: sfuHSVRmjECWxWdBJbhRQg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - pNx1hx+5fUy591CGwlCFOw
+  - NXKYi9XkLkGKmFTd+NcwwA
+  InternalIndex: 9
+  IsDynamic: 0
+--- !u!114 &114230812773801060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1515854308, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Trigger pow animation
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500376
+    y: 500460
+    width: 180
+    height: 72
+  GUID: ITd+3bHzy0SLLcztZYOVBw
+  Type: 250
+  Parent: RleDnstd1EqeAk+5crV23w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 0
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  API: 1
+  LegacyAction: 0
+  MecanimAction: 0
+  Trigger: Pow
+  State: 
+  Duration: 0.3
+  BlendWeight: 1
+  Enqueue: 0
+  TriggerVarName: 
+  IntVal:
+    intSource: 0
+    constant: 0
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  FloatVal:
+    floatSource: 0
+    constant: 0
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  BoolVal:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+--- !u!114 &114265929023440200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 537067836, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Mouse behaviour picker
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499956
+    y: 499920
+    width: 180
+    height: 72
+  GUID: sfuHSVRmjECWxWdBJbhRQg
+  Type: 1500
+  Parent: yPIA0It3o0uImZ00NUBhGA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - cOXrw8AedEC6XIyMoLLJfQ
+  - CmReHJkGEESuaEBPrSVTrA
+  - VQUvDwlZFEynTYN7lr2NJw
+  - W9q2ehOYS06wtW4H8hiYrg
+  InternalIndex: 23
+  FallbackBehaviourMode: 1
+  Outcomes:
+  - NeedName: Distance
+    WantName: Flee
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0.15016921
+        outSlope: 0.15016921
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.06593927
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2974329
+        value: 0.025380716
+        inSlope: -0.54009765
+        outSlope: -0.54009765
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0.05792241
+        outSlope: 0.05792241
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Col: {r: 0.5294118, g: 0.3372549, b: 0.57254905, a: 1}
+    NeedSpec:
+      floatSource: 2
+      constant: 0
+      min: 0
+      max: 0
+      Call:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: this
+        FullName: instinctai.usr.behaviours.Mouse.DistanceFromCat
+        ShortName: DistanceFromCat
+        CallSpec: DistanceFromCat
+        ReturnValue: System.Single
+        MenuDescription: (This) instinctai.usr.behaviours.Mouse.DistanceFromCat
+        Parameters:
+          keys: []
+          values: []
+          ParameterOrder: []
+          ParameterTypes: []
+          ParameterNames: []
+      Field:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        CallSpec: 
+        ReturnValue: 
+        CollectionType: 
+        ShortName: 
+    NeedMin: 0
+    NeedMax: 8
+    InfluenceValue: 0
+    InfluenceSpec:
+      floatSource: 0
+      constant: 0
+      min: 0
+      max: 0
+      Call:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        ShortName: 
+        CallSpec: 
+        ReturnValue: 
+        MenuDescription: 
+        Parameters:
+          keys: []
+          values: []
+          ParameterOrder: []
+          ParameterTypes: []
+          ParameterNames: []
+      Field:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        CallSpec: 
+        ReturnValue: 
+        CollectionType: 
+        ShortName: 
+  - NeedName: Food
+    WantName: Feed
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.90355325
+        inSlope: -0.08424917
+        outSlope: -0.08424917
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.17363833
+        value: 0.84445995
+        inSlope: -0.43403938
+        outSlope: -0.43403938
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.42870167
+        value: 0.36167738
+        inSlope: -1.6781408
+        outSlope: -1.6781408
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0.5560551
+        outSlope: 0.5560551
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Col: {r: 0.9529412, g: 0.7647059, b: 0, a: 1}
+    NeedSpec:
+      floatSource: 1
+      constant: 0
+      min: 0
+      max: 0
+      Call:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        ShortName: 
+        CallSpec: 
+        ReturnValue: 
+        MenuDescription: 
+        Parameters:
+          keys: []
+          values: []
+          ParameterOrder: []
+          ParameterTypes: []
+          ParameterNames: []
+      Field:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: this
+        FullName: instinctai.usr.behaviours.Mouse.FoodLevel
+        CallSpec: FoodLevel
+        ReturnValue: System.Single
+        CollectionType: 
+        ShortName: FoodLevel
+    NeedMin: 0
+    NeedMax: 100
+    InfluenceValue: 3
+    InfluenceSpec:
+      floatSource: 1
+      constant: 0
+      min: 0
+      max: 0
+      Call:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        ShortName: 
+        CallSpec: 
+        ReturnValue: 
+        MenuDescription: 
+        Parameters:
+          keys: []
+          values: []
+          ParameterOrder: []
+          ParameterTypes: []
+          ParameterNames: []
+      Field:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: this
+        FullName: instinctai.usr.behaviours.Mouse.Gluttonous
+        CallSpec: Gluttonous
+        ReturnValue: System.Single
+        CollectionType: 
+        ShortName: Gluttonous
+  - NeedName: Desperation
+    WantName: Attack
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: -0.10463403
+        outSlope: -0.10463403
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8026814
+        value: 0.30950934
+        inSlope: 4.0144305
+        outSlope: 4.0144305
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: -1.1889896
+        outSlope: -1.1889896
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Col: {r: 0.6313726, g: 0.7921569, b: 0.94509804, a: 1}
+    NeedSpec:
+      floatSource: 1
+      constant: 0
+      min: 0
+      max: 0
+      Call:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        ShortName: 
+        CallSpec: 
+        ReturnValue: 
+        MenuDescription: 
+        Parameters:
+          keys: []
+          values: []
+          ParameterOrder: []
+          ParameterTypes: []
+          ParameterNames: []
+      Field:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: this
+        FullName: instinctai.usr.behaviours.Mouse.Desperation
+        CallSpec: Desperation
+        ReturnValue: System.Single
+        CollectionType: 
+        ShortName: Desperation
+    NeedMin: 0
+    NeedMax: 2
+    InfluenceValue: 4
+    InfluenceSpec:
+      floatSource: 1
+      constant: 0
+      min: 0
+      max: 0
+      Call:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        ShortName: 
+        CallSpec: 
+        ReturnValue: 
+        MenuDescription: 
+        Parameters:
+          keys: []
+          values: []
+          ParameterOrder: []
+          ParameterTypes: []
+          ParameterNames: []
+      Field:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: this
+        FullName: instinctai.usr.behaviours.Mouse.Belligerent
+        CallSpec: Belligerent
+        ReturnValue: System.Single
+        CollectionType: 
+        ShortName: Belligerent
+  - NeedName: Nothing
+    WantName: Idle
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.48477072
+        inSlope: 0.11262038
+        outSlope: 0.11262038
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Col: {r: 0.9529412, g: 0.5176471, b: 0, a: 1}
+    NeedSpec:
+      floatSource: 1
+      constant: 0
+      min: 0
+      max: 0
+      Call:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        ShortName: 
+        CallSpec: 
+        ReturnValue: 
+        MenuDescription: 
+        Parameters:
+          keys: []
+          values: []
+          ParameterOrder: []
+          ParameterTypes: []
+          ParameterNames: []
+      Field:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: this
+        FullName: instinctai.usr.behaviours.Mouse.FoodLevel
+        CallSpec: FoodLevel
+        ReturnValue: System.Single
+        CollectionType: 
+        ShortName: FoodLevel
+    NeedMin: 0
+    NeedMax: 100
+    InfluenceValue: 0
+    InfluenceSpec:
+      floatSource: 0
+      constant: 0
+      min: 0
+      max: 0
+      Call:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        ShortName: 
+        CallSpec: 
+        ReturnValue: 
+        MenuDescription: 
+        Parameters:
+          keys: []
+          values: []
+          ParameterOrder: []
+          ParameterTypes: []
+          ParameterNames: []
+      Field:
+        Declaration: 
+        ClassLevelDeclaration: 
+        TargetObject: 
+        FullName: 
+        CallSpec: 
+        ReturnValue: 
+        CollectionType: 
+        ShortName: 
+--- !u!114 &114287118926471310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500736
+    y: 500460
+    width: 180
+    height: 72
+  GUID: qkjGWQQ5S02vCqFpANCVfQ
+  Type: 200
+  Parent: RleDnstd1EqeAk+5crV23w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 17
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.ChooseIdleTarget
+    ShortName: ChooseIdleTarget
+    CallSpec: ChooseIdleTarget
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.ChooseIdleTarget
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &114290117384226104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Cheese is very close?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499548
+    y: 500484
+    width: 180
+    height: 72
+  GUID: e2PK3ib/XUWzPM+/RAla5Q
+  Type: 1000
+  Parent: cWlg/gSwOUuFeffZCm9ccQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 13
+  CheckType: 2
+  Distance:
+    floatSource: 0
+    constant: 0
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 2
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse.ClosestCheese
+      ShortName: ClosestCheese
+      CallSpec: ClosestCheese
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Mouse.ClosestCheese
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+--- !u!114 &114299225003139980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Rush away from cat
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499176
+    y: 500208
+    width: 180
+    height: 72
+  GUID: xji0V18iZEKHC+IRomtz8Q
+  Type: 600
+  Parent: cOXrw8AedEC6XIyMoLLJfQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 26
+  Latch: 6
+  LatchTimeout: 1
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 2
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse.CatPosition
+      ShortName: CatPosition
+      CallSpec: CatPosition
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Mouse.CatPosition
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse._idleTarget
+      CallSpec: _idleTarget
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: _idleTarget
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 1
+--- !u!114 &114322161719792724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Idle target is close?
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500988
+    y: 500472
+    width: 180
+    height: 72
+  GUID: U0769V6Hu0e6abHyFoqfsw
+  Type: 1000
+  Parent: HJnZMGoBzkiXiQf1OEVtGQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 19
+  CheckType: 2
+  Distance:
+    floatSource: 0
+    constant: 0
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse.IdleTarget
+      CallSpec: IdleTarget
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: IdleTarget
+--- !u!114 &114324953586561200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Rush to idle target
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500724
+    y: 500208
+    width: 180
+    height: 72
+  GUID: Conn0gCw60+7LmVyB/de8g
+  Type: 600
+  Parent: VQUvDwlZFEynTYN7lr2NJw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 5
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 4
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse.IdleTarget
+      CallSpec: IdleTarget
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: IdleTarget
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &114357772168054050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Show getting cheese
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499560
+    y: 500208
+    width: 180
+    height: 72
+  GUID: 6bS/3kjYHEa3WP8adUm1tg
+  Type: 200
+  Parent: CmReHJkGEESuaEBPrSVTrA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 27
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    ShortName: SignalBehaviourOnScreen
+    CallSpec: SignalBehaviourOnScreen
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    Parameters:
+      keys:
+      - behaviour
+      values:
+      - Getting cheese
+      ParameterOrder:
+      - behaviour
+      ParameterTypes:
+      - string
+      ParameterNames:
+      - behaviour
+--- !u!114 &114423163521059068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move towards cheese
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499836
+    y: 500352
+    width: 180
+    height: 72
+  GUID: J0YWLcYd4kWHW0fLQ/ph+w
+  Type: 600
+  Parent: 5vbW+gKH0kehpAjhRvM/+w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 12
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 1.2
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 2
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse.ClosestCheese
+      ShortName: ClosestCheese
+      CallSpec: ClosestCheese
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Mouse.ClosestCheese
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &114428871474094712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Show is fleeing
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498996
+    y: 500208
+    width: 180
+    height: 72
+  GUID: 1LMjHJnW6EuY8P6dqtOs2g
+  Type: 200
+  Parent: cOXrw8AedEC6XIyMoLLJfQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 25
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    ShortName: SignalBehaviourOnScreen
+    CallSpec: SignalBehaviourOnScreen
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    Parameters:
+      keys:
+      - behaviour
+      values:
+      - Flee from cat
+      ParameterOrder:
+      - behaviour
+      ParameterTypes:
+      - string
+      ParameterNames:
+      - behaviour
+--- !u!114 &114466123280881814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Attack Cat
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500316
+    y: 500052
+    width: 180
+    height: 72
+  GUID: VQUvDwlZFEynTYN7lr2NJw
+  Type: 1600
+  Parent: sfuHSVRmjECWxWdBJbhRQg
+  RandomWeight: 1
+  PublishedState: Idle
+  PublishState: 1
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - OcMBVXRYU06ycv1J3ZrtRA
+  - B7K5i2dM8kCKZtBSUES75A
+  - RleDnstd1EqeAk+5crV23w
+  - Wf5lWZL+C0SDUABzQCj1cA
+  - Conn0gCw60+7LmVyB/de8g
+  InternalIndex: 8
+  IsDynamic: 0
+--- !u!114 &114469127066647242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499380
+    y: 500208
+    width: 180
+    height: 72
+  GUID: Ika+j335m0mNgWpwEbVReA
+  Type: 800
+  Parent: CmReHJkGEESuaEBPrSVTrA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 28
+  ConditionType: 2
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.CheeseIsAvailable
+    ShortName: CheeseIsAvailable
+    CallSpec: CheeseIsAvailable
+    ReturnValue: System.Boolean
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.CheeseIsAvailable
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    CallSpec: 
+    ReturnValue: 
+    CollectionType: 
+    ShortName: 
+  ConditionIfFalse: 0
+--- !u!114 &114491524392078530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1556080217, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Parallel
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500364
+    y: 500208
+    width: 180
+    height: 72
+  GUID: RleDnstd1EqeAk+5crV23w
+  Type: 1800
+  Parent: VQUvDwlZFEynTYN7lr2NJw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - BkXgugPDRUGpKf+F72DR3Q
+  - A1UXsaBq6E+DUL7upLKD6w
+  - ITd+3bHzy0SLLcztZYOVBw
+  - GaPubAgCq0ugYWzCg+pTLg
+  - qkjGWQQ5S02vCqFpANCVfQ
+  InternalIndex: 3
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  CompletionMode: 0
+--- !u!114 &114495755442941344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Selector 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501180
+    y: 500208
+    width: 180
+    height: 72
+  GUID: NXKYi9XkLkGKmFTd+NcwwA
+  Type: 1200
+  Parent: W9q2ehOYS06wtW4H8hiYrg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - HJnZMGoBzkiXiQf1OEVtGQ
+  - QZXvEH0HLUG67TjP1Ux3NQ
+  InternalIndex: 7
+--- !u!114 &114532024864375936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Show is attacking
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500004
+    y: 500208
+    width: 180
+    height: 72
+  GUID: OcMBVXRYU06ycv1J3ZrtRA
+  Type: 200
+  Parent: VQUvDwlZFEynTYN7lr2NJw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 2
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    ShortName: SignalBehaviourOnScreen
+    CallSpec: SignalBehaviourOnScreen
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    Parameters:
+      keys:
+      - behaviour
+      values:
+      - Attack! (Rush at cat)
+      ParameterOrder:
+      - behaviour
+      ParameterTypes:
+      - string
+      ParameterNames:
+      - behaviour
+--- !u!114 &114623958264490860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Show is idle
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501000
+    y: 500208
+    width: 180
+    height: 72
+  GUID: pNx1hx+5fUy591CGwlCFOw
+  Type: 200
+  Parent: W9q2ehOYS06wtW4H8hiYrg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 6
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    ShortName: SignalBehaviourOnScreen
+    CallSpec: SignalBehaviourOnScreen
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.SignalBehaviourOnScreen
+    Parameters:
+      keys:
+      - behaviour
+      values:
+      - Idling
+      ParameterOrder:
+      - behaviour
+      ParameterTypes:
+      - string
+      ParameterNames:
+      - behaviour
+--- !u!114 &114718307665002392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 454564016, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Wait for animation end
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500556
+    y: 500460
+    width: 180
+    height: 72
+  GUID: GaPubAgCq0ugYWzCg+pTLg
+  Type: 400
+  Parent: RleDnstd1EqeAk+5crV23w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 16
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  WaitSeconds:
+    floatSource: 0
+    constant: 0.75
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  IsIndefinite: 0
+  timeMode: 0
+--- !u!114 &114720206068031164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -217198319, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500028
+    y: 499836
+    width: 32
+    height: 32
+  GUID: yPIA0It3o0uImZ00NUBhGA
+  Type: 0
+  Parent: 
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - sfuHSVRmjECWxWdBJbhRQg
+  InternalIndex: 24
+--- !u!114 &114748089384136936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Get Cheese
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499692
+    y: 500076
+    width: 180
+    height: 72
+  GUID: CmReHJkGEESuaEBPrSVTrA
+  Type: 1600
+  Parent: sfuHSVRmjECWxWdBJbhRQg
+  RandomWeight: 1
+  PublishedState: GetCheese
+  PublishState: 1
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - Ika+j335m0mNgWpwEbVReA
+  - 6bS/3kjYHEa3WP8adUm1tg
+  - 5vbW+gKH0kehpAjhRvM/+w
+  InternalIndex: 29
+  IsDynamic: 0
+--- !u!114 &114858627686883092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Eat nearby cheese
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499644
+    y: 500352
+    width: 180
+    height: 72
+  GUID: cWlg/gSwOUuFeffZCm9ccQ
+  Type: 1600
+  Parent: 5vbW+gKH0kehpAjhRvM/+w
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - e2PK3ib/XUWzPM+/RAla5Q
+  - tnzP6u5l3kiXoImveOrkiQ
+  InternalIndex: 11
+  IsDynamic: 0
+--- !u!114 &114880251192265844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501168
+    y: 500472
+    width: 180
+    height: 72
+  GUID: FI07cRrgK0O8Uy6anO0usA
+  Type: 200
+  Parent: HJnZMGoBzkiXiQf1OEVtGQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 20
+  Latch: 1
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Mouse.ChooseIdleTarget
+    ShortName: ChooseIdleTarget
+    CallSpec: ChooseIdleTarget
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.Mouse.ChooseIdleTarget
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &114881906095210692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Rush at cat
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500184
+    y: 500208
+    width: 180
+    height: 72
+  GUID: B7K5i2dM8kCKZtBSUES75A
+  Type: 600
+  Parent: VQUvDwlZFEynTYN7lr2NJw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 1
+  Latch: 7
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 2
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse.CatWithinDistance
+      ShortName: CatWithinDistance
+      CallSpec: CatWithinDistance
+      ReturnValue: System.Boolean
+      MenuDescription: (This) instinctai.usr.behaviours.Mouse.CatWithinDistance
+      Parameters:
+        keys:
+        - d
+        values:
+        - 0.3
+        ParameterOrder:
+        - d
+        ParameterTypes:
+        - float
+        ParameterNames:
+        - d
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 4
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 2
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse.CatPosition
+      ShortName: CatPosition
+      CallSpec: CatPosition
+      ReturnValue: UnityEngine.Vector3
+      MenuDescription: (This) instinctai.usr.behaviours.Mouse.CatPosition
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Mouse._idleTarget
+      CallSpec: _idleTarget
+      ReturnValue: UnityEngine.Vector3
+      CollectionType: 
+      ShortName: _idleTarget
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &114931181518264336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Flee from cat
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499092
+    y: 500064
+    width: 180
+    height: 72
+  GUID: cOXrw8AedEC6XIyMoLLJfQ
+  Type: 1600
+  Parent: sfuHSVRmjECWxWdBJbhRQg
+  RandomWeight: 1
+  PublishedState: FleeFromCat
+  PublishState: 1
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - 1LMjHJnW6EuY8P6dqtOs2g
+  - xji0V18iZEKHC+IRomtz8Q
+  InternalIndex: 30
+  IsDynamic: 0

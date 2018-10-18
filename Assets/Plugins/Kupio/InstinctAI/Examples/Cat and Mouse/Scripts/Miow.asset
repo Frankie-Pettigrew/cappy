@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 849302148, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Miow
+  m_EditorClassIdentifier: 
+  AllNodes:
+  - {fileID: 114137582291673788}
+  - {fileID: 114299944774884856}
+  - {fileID: 114179307254111784}
+  - {fileID: 114735585234518492}
+  SeparatorPos:
+    serializedVersion: 2
+    x: 1
+    y: 0
+    width: 150
+    height: 100
+  PropsScrollPos: {x: 0, y: 0}
+  ZoomLevel: 3
+  ViewCenter: {x: 499440, y: 499789.5}
+  Namespace: 
+  ClassName: 
+  AssetFolder: 
+  BaseClass: 
+  TreeUpdateMode: 0
+  IsSubtreeOnly: 0
+  EnableDebugLogNodes: 1
+  EnableLiveUpdate: 1
+  AddClassNamePrefix: 1
+  RequiresInit: 0
+  GUID: gGvtNrZ8k0i8s0QB1lkIWQ
+  RequiredComponents: []
+  CodeKey: PnEerUvDTUeXxFBnJC+WNQ
+--- !u!114 &114137582291673788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Sequence
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499932
+    y: 499932
+    width: 180
+    height: 72
+  GUID: ZIVjnsICF0uuHVXxmc29VQ
+  Type: 1600
+  Parent: Pe927xs4mkeOqvb3O8p8LA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - j34EjwOBp0yuL5Ox9kAUig
+  - qscxg69l80CluHMnYxkpcw
+  InternalIndex: 0
+--- !u!114 &114179307254111784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -217198319, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500004
+    y: 499824
+    width: 32
+    height: 32
+  GUID: Pe927xs4mkeOqvb3O8p8LA
+  Type: 0
+  Parent: 
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - ZIVjnsICF0uuHVXxmc29VQ
+  InternalIndex: 2
+--- !u!114 &114299944774884856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 454564016, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499800
+    y: 500100
+    width: 180
+    height: 72
+  GUID: j34EjwOBp0yuL5Ox9kAUig
+  Type: 400
+  Parent: ZIVjnsICF0uuHVXxmc29VQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 1
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  WaitSeconds:
+    floatSource: 3
+    constant: 1
+    min: 5
+    max: 10
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  IsIndefinite: 0
+  timeMode: 0
+--- !u!114 &114735585234518492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1515854308, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Say miow
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500052
+    y: 500100
+    width: 180
+    height: 72
+  GUID: qscxg69l80CluHMnYxkpcw
+  Type: 250
+  Parent: ZIVjnsICF0uuHVXxmc29VQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 3
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  API: 1
+  LegacyAction: 0
+  MecanimAction: 0
+  Trigger: Miow
+  State: 
+  Duration: 0.3
+  BlendWeight: 1
+  Enqueue: 0
+  TriggerVarName: 
+  IntVal:
+    intSource: 0
+    constant: 0
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  FloatVal:
+    floatSource: 0
+    constant: 0
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  BoolVal:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 

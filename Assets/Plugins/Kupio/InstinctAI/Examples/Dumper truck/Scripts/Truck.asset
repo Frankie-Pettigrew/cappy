@@ -1,0 +1,1252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 849302148, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Truck
+  m_EditorClassIdentifier: 
+  AllNodes:
+  - {fileID: 114285276867082424}
+  - {fileID: 114469262840964508}
+  - {fileID: 114626229797359556}
+  - {fileID: 114761660735128220}
+  - {fileID: 114900270907056882}
+  - {fileID: 114617715211306886}
+  - {fileID: 114818996919781852}
+  - {fileID: 114904345703592266}
+  - {fileID: 114346837483731684}
+  - {fileID: 114859196343006252}
+  - {fileID: 114008912555688204}
+  - {fileID: 114514079119437914}
+  - {fileID: 114230022567301812}
+  SeparatorPos:
+    serializedVersion: 2
+    x: 1
+    y: 0
+    width: 150
+    height: 100
+  PropsScrollPos: {x: 0, y: 0}
+  ZoomLevel: 3
+  ViewCenter: {x: 499153, y: 499903}
+  Namespace: 
+  ClassName: 
+  AssetFolder: 
+  BaseClass: 
+  TreeUpdateMode: 0
+  IsSubtreeOnly: 0
+  EnableDebugLogNodes: 1
+  EnableLiveUpdate: 1
+  AddClassNamePrefix: 1
+  RequiresInit: 0
+  GUID: 6z7j0k/+9U+GcAwJ+bXq/Q
+  RequiredComponents: []
+  CodeKey: iQIUr399K0mYZN8HLcfRmw
+  SchemaVersion: 1
+  ___GenerateNodeComments: 0
+  ___GenerateNodeTrace: 0
+--- !u!114 &114008912555688204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1556080217, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Parallel
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500076
+    y: 500136
+    width: 180
+    height: 72
+  GUID: svYJdMHFc0e1yi0qQTLPkQ
+  Type: 1800
+  Parent: A5tfYgobTUCR1mzQm90Wkw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - hkfxjBP4RUiDPHU2vU6CsA
+  - 8AZpwfHuJk6uJMOHHmTDjg
+  InternalIndex: 10
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  CompletionMode: 0
+--- !u!114 &114230022567301812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 454564016, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500184
+    y: 500316
+    width: 180
+    height: 72
+  GUID: 8AZpwfHuJk6uJMOHHmTDjg
+  Type: 400
+  Parent: svYJdMHFc0e1yi0qQTLPkQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 12
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  WaitSeconds:
+    floatSource: 0
+    constant: 2
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  IsIndefinite: 0
+  timeMode: 0
+--- !u!114 &114285276867082424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -217198319, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499968
+    y: 499848
+    width: 32
+    height: 32
+  GUID: zPIxWtNVsUO6vWwBsY7cuQ
+  Type: 0
+  Parent: 
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - A5tfYgobTUCR1mzQm90Wkw
+  InternalIndex: 0
+--- !u!114 &114346837483731684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 973358238, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Pick a random target
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499356
+    y: 500088
+    width: 180
+    height: 72
+  GUID: /dMzzh6wR0WBnJ0Ek5CW5g
+  Type: 1400
+  Parent: A5tfYgobTUCR1mzQm90Wkw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - 4UsGUq8qokeL4v9Yx7I+Cw
+  - pRYrIBOIV0uWwfkjx5EhRA
+  - 4Sg+2FYzl0S1FrMfTL7cTg
+  - 0UXf0Pl/NEuBMySsLL3x1g
+  - dQd1POyWOUq8Sgpc3N+z+Q
+  - CqVi/QObFkOADWFKRW57jw
+  InternalIndex: 8
+  Distribution: 0
+  AntiRepeat: 1
+--- !u!114 &114469262840964508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Sequence
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499872
+    y: 499932
+    width: 180
+    height: 72
+  GUID: A5tfYgobTUCR1mzQm90Wkw
+  Type: 1600
+  Parent: zPIxWtNVsUO6vWwBsY7cuQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - /dMzzh6wR0WBnJ0Ek5CW5g
+  - vgW5mKrVXkmwg9/C5p8tHQ
+  - svYJdMHFc0e1yi0qQTLPkQ
+  InternalIndex: 1
+  IsDynamic: 0
+--- !u!114 &114514079119437914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1515854308, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Animation
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499992
+    y: 500316
+    width: 180
+    height: 72
+  GUID: hkfxjBP4RUiDPHU2vU6CsA
+  Type: 250
+  Parent: svYJdMHFc0e1yi0qQTLPkQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 11
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  API: 1
+  LegacyAction: 0
+  MecanimAction: 0
+  Trigger: Tip
+  State: 
+  Duration: 0.3
+  BlendWeight: 1
+  Enqueue: 0
+  TriggerVarName: 
+  IntVal:
+    intSource: 0
+    constant: 0
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  FloatVal:
+    floatSource: 0
+    constant: 0
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  BoolVal:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+--- !u!114 &114617715211306886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 260351886, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Set property 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499308
+    y: 500292
+    width: 180
+    height: 72
+  GUID: 4Sg+2FYzl0S1FrMfTL7cTg
+  Type: 2200
+  Parent: /dMzzh6wR0WBnJ0Ek5CW5g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 5
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  setPropertyMode: 0
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Truck.Target
+    CallSpec: Target
+    ReturnValue: UnityEngine.Transform
+    CollectionType: System.Object
+    ShortName: Target
+  Source:
+    Source: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Truck.Target3
+      CallSpec: Target3
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: Target3
+    ConstantString: 
+    ConstantInt: 0
+    ConstantFloat: 0
+    ConstantVector3: {x: 0, y: 0, z: 0}
+    ConstantBool: 0
+  Tween:
+    easing: 0
+    Duration: 1
+    DurationTimeMode: 0
+    Delay: 0
+  Rove:
+    InitialSpeed: 0
+    MaxSpeed: 0
+    AccelerationPerSec: 0
+    DecelerationPerSec: 0
+    SpeedTimeMode: 0
+    TargetSize: 0
+--- !u!114 &114626229797359556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 260351886, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Set property 3
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499404
+    y: 500376
+    width: 180
+    height: 72
+  GUID: 0UXf0Pl/NEuBMySsLL3x1g
+  Type: 2200
+  Parent: /dMzzh6wR0WBnJ0Ek5CW5g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 2
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  setPropertyMode: 0
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Truck.Target
+    CallSpec: Target
+    ReturnValue: UnityEngine.Transform
+    CollectionType: System.Object
+    ShortName: Target
+  Source:
+    Source: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Truck.Target4
+      CallSpec: Target4
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: Target4
+    ConstantString: 
+    ConstantInt: 0
+    ConstantFloat: 0
+    ConstantVector3: {x: 0, y: 0, z: 0}
+    ConstantBool: 0
+  Tween:
+    easing: 0
+    Duration: 1
+    DurationTimeMode: 0
+    Delay: 0
+  Rove:
+    InitialSpeed: 0
+    MaxSpeed: 0
+    AccelerationPerSec: 0
+    DecelerationPerSec: 0
+    SpeedTimeMode: 0
+    TargetSize: 0
+--- !u!114 &114761660735128220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 260351886, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Set property 4
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499500
+    y: 500292
+    width: 180
+    height: 72
+  GUID: dQd1POyWOUq8Sgpc3N+z+Q
+  Type: 2200
+  Parent: /dMzzh6wR0WBnJ0Ek5CW5g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 3
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  setPropertyMode: 0
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Truck.Target
+    CallSpec: Target
+    ReturnValue: UnityEngine.Transform
+    CollectionType: System.Object
+    ShortName: Target
+  Source:
+    Source: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Truck.Target5
+      CallSpec: Target5
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: Target5
+    ConstantString: 
+    ConstantInt: 0
+    ConstantFloat: 0
+    ConstantVector3: {x: 0, y: 0, z: 0}
+    ConstantBool: 0
+  Tween:
+    easing: 0
+    Duration: 1
+    DurationTimeMode: 0
+    Delay: 0
+  Rove:
+    InitialSpeed: 0
+    MaxSpeed: 0
+    AccelerationPerSec: 0
+    DecelerationPerSec: 0
+    SpeedTimeMode: 0
+    TargetSize: 0
+--- !u!114 &114818996919781852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 260351886, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Set property 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499212
+    y: 500376
+    width: 180
+    height: 72
+  GUID: pRYrIBOIV0uWwfkjx5EhRA
+  Type: 2200
+  Parent: /dMzzh6wR0WBnJ0Ek5CW5g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 6
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  setPropertyMode: 0
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Truck.Target
+    CallSpec: Target
+    ReturnValue: UnityEngine.Transform
+    CollectionType: System.Object
+    ShortName: Target
+  Source:
+    Source: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Truck.Target2
+      CallSpec: Target2
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: Target2
+    ConstantString: 
+    ConstantInt: 0
+    ConstantFloat: 0
+    ConstantVector3: {x: 0, y: 0, z: 0}
+    ConstantBool: 0
+  Tween:
+    easing: 0
+    Duration: 1
+    DurationTimeMode: 0
+    Delay: 0
+  Rove:
+    InitialSpeed: 0
+    MaxSpeed: 0
+    AccelerationPerSec: 0
+    DecelerationPerSec: 0
+    SpeedTimeMode: 0
+    TargetSize: 0
+--- !u!114 &114859196343006252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -922421495, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Navigation
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499812
+    y: 500172
+    width: 180
+    height: 72
+  GUID: vgW5mKrVXkmwg9/C5p8tHQ
+  Type: 790
+  Parent: A5tfYgobTUCR1mzQm90Wkw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 9
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  Target:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Truck.Target
+      CallSpec: Target
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: Target
+  NavAction: 0
+  LatchUntilMode: 1
+--- !u!114 &114900270907056882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 260351886, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Set property 5
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499596
+    y: 500376
+    width: 180
+    height: 72
+  GUID: CqVi/QObFkOADWFKRW57jw
+  Type: 2200
+  Parent: /dMzzh6wR0WBnJ0Ek5CW5g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 4
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  setPropertyMode: 0
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Truck.Target
+    CallSpec: Target
+    ReturnValue: UnityEngine.Transform
+    CollectionType: System.Object
+    ShortName: Target
+  Source:
+    Source: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Truck.Target6
+      CallSpec: Target6
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: Target6
+    ConstantString: 
+    ConstantInt: 0
+    ConstantFloat: 0
+    ConstantVector3: {x: 0, y: 0, z: 0}
+    ConstantBool: 0
+  Tween:
+    easing: 0
+    Duration: 1
+    DurationTimeMode: 0
+    Delay: 0
+  Rove:
+    InitialSpeed: 0
+    MaxSpeed: 0
+    AccelerationPerSec: 0
+    DecelerationPerSec: 0
+    SpeedTimeMode: 0
+    TargetSize: 0
+--- !u!114 &114904345703592266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 260351886, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Set property
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499116
+    y: 500292
+    width: 180
+    height: 72
+  GUID: 4UsGUq8qokeL4v9Yx7I+Cw
+  Type: 2200
+  Parent: /dMzzh6wR0WBnJ0Ek5CW5g
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 7
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  setPropertyMode: 0
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.Truck.Target
+    CallSpec: Target
+    ReturnValue: UnityEngine.Transform
+    CollectionType: System.Object
+    ShortName: Target
+  Source:
+    Source: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.Truck.Target1
+      CallSpec: Target1
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: Target1
+    ConstantString: 
+    ConstantInt: 0
+    ConstantFloat: 0
+    ConstantVector3: {x: 0, y: 0, z: 0}
+    ConstantBool: 0
+  Tween:
+    easing: 0
+    Duration: 1
+    DurationTimeMode: 0
+    Delay: 0
+  Rove:
+    InitialSpeed: 0
+    MaxSpeed: 0
+    AccelerationPerSec: 0
+    DecelerationPerSec: 0
+    SpeedTimeMode: 0
+    TargetSize: 0
