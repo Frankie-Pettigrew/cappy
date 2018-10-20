@@ -15,6 +15,7 @@ public class PedestrianManager : MonoBehaviour
 	public float spawnSpeed;
 	private getMidiValues midi;
 	private changeSynthParams parms;
+	private worldRotate rotator;
 
 	public float distToTravel;
 //	private Hv_bangSynth_AudioLib musicLib;
@@ -31,7 +32,7 @@ public class PedestrianManager : MonoBehaviour
 
 	void Start()
 	{
-		
+		rotator = GameObject.Find("world").GetComponent<worldRotate>();	
 		light = GameObject.Find("Directional Light").GetComponent<RotateLight>();
 		dirLight = light.gameObject.GetComponent<Light>();
 		dirLight.color = startCol;
@@ -57,7 +58,7 @@ public class PedestrianManager : MonoBehaviour
 		parms.startt1 = ExtensionMethods.Remap(midi.tracks[4], 0, 1, 0, 4000);
 		light.rotSpeed = ExtensionMethods.Remap(midi.tracks[4], 0, 1, 0.1f, 3);
 		parms.del2F = ExtensionMethods.Remap(midi.tracks[5], 0, 1, 0.01f, 0.95f);
-		parms.rootnote = (int) ExtensionMethods.Remap(midi.tracks[6], 0, 1, 0, 15);
+		rotator.percentRotated = midi.tracks[6];
 		dirLight.color = newCol;
 
 	}
