@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Serialization.Formatters;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Pathfinding;
@@ -24,11 +25,37 @@ public class mapManager : MonoBehaviour
 	public int peoplePerBuilding;
 
 
-	public float dayNightLength = 300;
+	public float dayNightSpeed = 1;
+	public float dayNightValue = 0;
+	private int season;
+	
+	public bool isNight = true;
+	
+	public float sunriseTime = 440;
+	public float sunsetTime = 999;
+
+	private JunctionController trafficControl;
+	
 
 
 	// Use this for initialization
 	void Start ()
+	{
+		trafficControl = FindObjectOfType<JunctionController>();
+		
+		createLists();
+		createWalkers();
+		
+	}
+
+	void Update()
+	{
+		dayNightCycle();
+		checkForDeltas();
+		spawnOnTimer();
+	}
+
+	void createLists()
 	{
 		foreach (Building b in GetComponentsInChildren<Building>())
 		{
@@ -44,19 +71,61 @@ public class mapManager : MonoBehaviour
 		{
 			roads.Add(r.transform);
 		}
-		createWalkers();
-		
 	}
 
-	void Update()
+	void spawnFromMostOccupiedBuilding()
 	{
-		checkForDeltas();
+		int mostOccupiedCount = 0;
+		Building mostOccupied = buildings[0];
+		foreach (Building b in buildings)
+		{
+			if (b.tenantsIn.Count > mostOccupiedCount)
+			{
+				mostOccupiedCount = b.tenantsIn.Count;
+				mostOccupied = b;
+			}
+		}
+		mostOccupied.instantiateWalker();
 	}
 
 	void dayNightCycle()
 	{
+		if (dayNightValue < 1440)
+		{
+			if (dayNightValue < sunriseTime)
+			{
+				isNight = true;
+			} else if (dayNightValue < sunsetTime)
+			{
+				isNight = false;
+			}
+			dayNightValue += Time.time * 60 * dayNightSpeed;
+		}
+		else
+		{
+			dayNightValue = 0;
+		}
 		
 	}
+
+	void spawnOnTimer()
+	{
+		if (isNight)
+		{
+			if (dayNightValue % 3 == 0)
+			{
+				spawnFromMostOccupiedBuilding();
+			}
+		}
+		else
+		{
+			if (dayNightValue == 0)
+			{
+				spawnFromMostOccupiedBuilding();
+			}
+		}
+	}
+	
 
 	void createWalkers()
 	{
@@ -65,7 +134,8 @@ public class mapManager : MonoBehaviour
 			for (int i = 0; i < b.availableHousing; i++)
 			{
 				GameObject newWalker = Instantiate(walkerFab, b.entryPos, Quaternion.identity);
-				b.tenants.Add(newWalker.GetComponent<Walker>());
+				newWalker.transform.parent = b.transform;
+				b.tenantsIn.Add(newWalker.GetComponent<Walker>());
 				newWalker.SetActive(false);
 			}
 		}

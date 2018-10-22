@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,13 +20,14 @@ public class Building : MonoBehaviour
 
 	public int availableHousing = 100;
 	
-	public List<Walker> tenants = new List<Walker>();
+	public List<Walker> tenantsIn = new List<Walker>();
+	public List<Walker> tenantsOut = new List<Walker>();
 	
 
 	void Start()
 	{
 		manager = GetComponentInParent<mapManager>();
-		entryPos = transform.position - new Vector3(0, 0, -manager.sidewalkWidth);
+		entryPos = transform.position + new Vector3(0, 0, -manager.sidewalkWidth);
 		road = transform.parent.Find("roadPiece").gameObject;
 		sidewalk = transform.parent.Find("sidewalkPiece").gameObject;
 		sidewalkPos = sidewalk.transform.position;
@@ -40,6 +42,15 @@ public class Building : MonoBehaviour
 		{
 			models[i] = transform.GetChild(i).gameObject;
 		}	
+	}
+
+	public void instantiateWalker()
+	{
+		tenantsOut.Add(tenantsIn[0]);
+		tenantsIn.RemoveAt(0);
+		Walker newWalker = tenantsOut[tenantsOut.Count - 1];
+		newWalker.transform.position = entryPos;
+		newWalker.gameObject.SetActive(true);
 	}
 	
 

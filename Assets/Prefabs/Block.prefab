@@ -1683,8 +1683,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1217282137700012}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -10, y: 0, z: -50}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4112133479890434}
@@ -3051,6 +3051,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPos: {x: 0, y: 0, z: 0}
+  availableHousing: 30
+  tenantsIn: []
+  tenantsOut: []
 --- !u!114 &114181348278092954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3063,6 +3066,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPos: {x: 0, y: 0, z: 0}
+  availableHousing: 100
+  tenantsIn: []
+  tenantsOut: []
 --- !u!114 &114249784489995128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3075,6 +3081,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPos: {x: 0, y: 0, z: 0}
+  availableHousing: 100
+  tenantsIn: []
+  tenantsOut: []
 --- !u!114 &114266690512382960
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3087,6 +3096,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPos: {x: 0, y: 0, z: 0}
+  availableHousing: 100
+  tenantsIn: []
+  tenantsOut: []
 --- !u!114 &114286865876933246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3099,6 +3111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPos: {x: 0, y: 0, z: 0}
+  availableHousing: 100
+  tenantsIn: []
+  tenantsOut: []
 --- !u!114 &114520070560279546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3111,6 +3126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPos: {x: 0, y: 0, z: 0}
+  availableHousing: 100
+  tenantsIn: []
+  tenantsOut: []
 --- !u!114 &114761751391974024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3123,6 +3141,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPos: {x: 0, y: 0, z: 0}
+  availableHousing: 100
+  tenantsIn: []
+  tenantsOut: []
 --- !u!114 &114849360054584842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3135,3 +3156,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entryPos: {x: 0, y: 0, z: 0}
+  availableHousing: 100
+  tenantsIn: []
+  tenantsOut: []
