@@ -5,18 +5,22 @@ using UnityEngine;
 public class guyAnim : MonoBehaviour {
 	
 	public Sprite[] sprites = new Sprite[3];
+	public Sprite[] dollaSprites = new Sprite[4];
 
-	private SpriteRenderer ren;
+	public SpriteRenderer ren;
 	public float animTime;
 
 	public bool walking, singing;
 	public float animTimer = 0;
+	public SpriteRenderer dollas;
+	public int budget = 0;
 	
 
 	// Use this for initialization
 	void Start ()
 	{
 		ren = GetComponent<SpriteRenderer>();
+		dollas = transform.GetChild(0).GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
@@ -49,6 +53,8 @@ public class guyAnim : MonoBehaviour {
 		{
 			ren.sprite = sprites[0];
 		}
+
+		dollas.sprite = dollaSprites[budget];
 	}
 	
 	

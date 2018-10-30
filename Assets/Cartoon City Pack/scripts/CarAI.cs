@@ -33,6 +33,8 @@ public class CarAI : MonoBehaviour {
 	private bool onJunction = false;
 	private Junction currentJunction;
 
+	private Vector3 initPos;
+
 
 	void Start ()
 	{
@@ -46,6 +48,7 @@ public class CarAI : MonoBehaviour {
 
 		//cache transform component, good for performance
 		myTransform = GetComponent<Transform>();
+		initPos = transform.localPosition;
 
 		//fill waypoints array
 		foreach(Transform child in waypointsHolder)
@@ -54,6 +57,14 @@ public class CarAI : MonoBehaviour {
 		//set first waypoint index
 		if(startWaypointIndex < waypoints.Count)
 			waypointIndex = startWaypointIndex;
+	}
+
+	private void Awake()
+	{
+		if (startWaypointIndex < waypoints.Count)
+		{
+			waypointIndex = startWaypointIndex;
+		}
 	}
 
 
@@ -68,6 +79,11 @@ public class CarAI : MonoBehaviour {
 			accelerating = false;
 		else
 			accelerating = true;
+	}
+
+	public void Restart()
+	{
+		
 	}
 
 
@@ -100,36 +116,45 @@ public class CarAI : MonoBehaviour {
 			foreach (Transform wheel in wheels)
 				wheel.Rotate(Vector3.right, currentSpeed * Time.deltaTime * 90, Space.Self);
 		}
+		else
+		{
+			gameObject.SetActive(false);
+			transform.localPosition = initPos;
+		}
 	}
 
 
 	void OnTriggerStay(Collider col)
 	{
-		//if car enters in the waypoint
-		if(col.tag == "Waypoint" && Vector3.Distance(myTransform.position, waypoints[waypointIndex].position) < 1.0f)
+		if (!stopped)
 		{
-			if(col.GetInstanceID() == lastWaypointID)
-				return;
-
-			waypointIndex ++ ;
-
-			//if this is last waypoint, check loop value, if it isn't true then stop the car, else continue moving
-			if(waypointIndex >= waypoints.Count)
+			//if car enters in the waypoint
+			if (col.tag == "Waypoint" &&
+			    Vector3.Distance(myTransform.position, waypoints[waypointIndex].position) < 1.0f)
 			{
-				if(loop)
-					waypointIndex = 0;
-				else
-					stopped = true;
+				if (col.GetInstanceID() == lastWaypointID)
+					return;
+
+				waypointIndex++;
+
+				//if this is last waypoint, check loop value, if it isn't true then stop the car, else continue moving
+				if (waypointIndex >= waypoints.Count)
+				{
+					if (loop)
+						waypointIndex = 0;
+					else
+						stopped = true;
+				}
+
+				lastWaypointID = col.GetInstanceID();
 			}
 
-			lastWaypointID = col.GetInstanceID();
-		}
-
-		//if car is standing in junction and its state is 'free' than start moving
-		if(!accelerating && col.tag == "Junction" && currentJunction.free)
-		{
-			onJunction = false;
-			accelerating = true;
+			//if car is standing in junction and its state is 'free' than start moving
+			if (!accelerating && col.tag == "Junction" && currentJunction.free)
+			{
+				onJunction = false;
+				accelerating = true;
+			}
 		}
 	}
 

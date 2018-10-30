@@ -19,6 +19,8 @@ public class Junction : MonoBehaviour {
 	private Material redLight;
 	private Material yelloLight;
 	private Material greenLight;
+
+	private GameObject crosswalk;
 	
 	void Start()
 	{
@@ -27,6 +29,8 @@ public class Junction : MonoBehaviour {
 		redLight = mats[redLightMatNum];
 		yelloLight = mats[yelloLightMatNum];
 		greenLight = mats[greenLightMatNum];
+		crosswalk = transform.GetChild(2).gameObject;
+		crosswalk.SetActive(true);
 
 		//make all color gray (disabled)
 		redLight.color = Color.gray;
@@ -41,17 +45,20 @@ public class Junction : MonoBehaviour {
 		{
 			greenLight.color = Color.green;
 			yelloLight.color = Color.gray;
+			//crosswalk.SetActive(true);
 		}
 		else if(waiting)
 		{
 			yelloLight.color = Color.yellow;
 			redLight.color = Color.gray;
 			greenLight.color = Color.gray;
+			
 		}
 		else
 		{
 			redLight.color = Color.red;
 			yelloLight.color = Color.gray;
+			//crosswalk.SetActive(false);
 		}
 
 	}

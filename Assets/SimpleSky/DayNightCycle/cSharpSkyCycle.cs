@@ -31,8 +31,8 @@ public class cSharpSkyCycle : MonoBehaviour
 	public Transform sunTilt;
 
 
-	private float day;
-	private float min;
+	public float day;
+	public float min;
 	private float smoothMin;
 
 	private float texOffset;

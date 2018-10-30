@@ -120,8 +120,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154568}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25, y: -66.2, z: 15}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 418456}
@@ -409,8 +409,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e729b6c4326c43eb9a3f1962c59fcdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsPerMinute: 0.625
-  startTime: 12
-  showGUI: 0
+  secondsPerMinute: 0.01
+  startTime: 0
+  showGUI: 1
   latitudeAngle: 45
-  sunTilt: {fileID: 0}
+  sunTilt: {fileID: 479536}
+  day: 0
+  min: 0

@@ -9,6 +9,9 @@ TagManager:
   - Road
   - Sidewalk
   - Corner
+  - Waypoint
+  - Junction
+  - exit
   layers:
   - Default
   - TransparentFX
@@ -23,9 +26,9 @@ TagManager:
   - Sidewalk
   - Crosswalk
   - Corner
-  - 
-  - 
-  - 
+  - Junction
+  - Car
+  - Walker
   - 
   - 
   - 

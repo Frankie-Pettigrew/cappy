@@ -423,6 +423,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Building.cs" t="Include" />
+          <e p="CarSpawner.cs" t="Include" />
           <e p="ExtensionMethods.cs" t="Include" />
           <e p="guyAnim.cs" t="Include" />
           <e p="MapGenerator.cs" t="Include" />
@@ -440,6 +441,8 @@
           </e>
           <e p="TrafficLightManager.cs" t="Include" />
           <e p="Walker.cs" t="Include" />
+          <e p="WalkerTree.cs" t="Include" />
+          <e p="WalkerTree.generated.cs" t="Include" />
           <e p="worldRotate.cs" t="Include" />
         </e>
         <e p="SimpleSky" t="Include">

@@ -5,7 +5,7 @@ using UnityEngine.Assertions.Comparers;
 
 public class changeSynthParams : MonoBehaviour
 {
-	private Hv_pedSynths_AudioLib lib;
+	public Hv_pedSynths_AudioLib lib;
 	
 	public float del1F,
 		del1T,
